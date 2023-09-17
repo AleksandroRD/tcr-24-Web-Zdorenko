@@ -65,7 +65,19 @@ ul#labs{
 div#backgroundlabbox{
     width:450px;
 	height:200px;
-    background-color: 	#AFEEEE;
+    background-color: #AFEEEE;
     border-radius: 25px;
     margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+div#backgroundprakbox{
+    width:450px;
+	height:200px;
+    background-color: #d8a860;
+    border-radius: 25px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
 }
