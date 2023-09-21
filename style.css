@@ -19,6 +19,9 @@ body{
     
 }
 
+main{
+    padding: 35px;
+}
 header {
     color: #fff;
     text-align: center;
@@ -79,4 +82,27 @@ ul#labs{
     margin: 10px;
     position: relative;
     text-align: center;
+}
+
+.tablecell{
+    border: 1px solid #4f5d61;
+    padding: 0px;
+    margin: 0px;
+    display: table-cell;
+    min-height: 60px;
+    min-height: 50px;
+}
+table#timetable{ 
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    border-spacing: 0px;
+    text-align: center;
+    background-color: rgb(245,245,245);
+
+}
+.tablecell p{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
