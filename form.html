@@ -9,11 +9,7 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/16/16822.png" type="image/x-icon">
   </head>
   <body>
-    <header>
-        <h1>Сайт Олександра Здоренка</h1>  
-    </header>
-    <hr>
-    <nav style="text-align: center; padding: 10px;">
+    <nav class="navbar">
         <ul id = "navmenu">
             <li class="navmenuslot">
                 <a class = "navmenulink" href = "index.html">Головна</a>
@@ -30,7 +26,34 @@
         </ul>
     </nav>
     <main>
-
+        <form action="https://webhook.site/ваш_посилання" method="post">
+            <label for="ім'я">Ім'я:</label>
+            <input type="text" id="ім'я" name="ім'я" required><br>
+    
+            <label for="прізвище">Прізвище:</label>
+            <input type="text" id="прізвище" name="прізвище" required><br>
+    
+            <label for="email">Адреса електронної пошти:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="пароль">Пароль:</label>
+            <input type="password" id="пароль" name="пароль" required><br>
+    
+            <label for="підтвердження_паролю">Підтвердження паролю:</label>
+            <input type="password" id="підтвердження_паролю" name="підтвердження_паролю" required><br>
+    
+            <label for="дата_народження">Дата народження:</label>
+            <input type="date" id="дата_народження" name="дата_народження"><br>
+    
+            <label for="стать">Стать:</label>
+            <select id="стать" name="стать">
+                <option value="чоловік">Чоловік</option>
+                <option value="жінка">Жінка</option>
+                <option value="інше">Інше</option>
+            </select><br>
+    
+            <input type="submit" value="Зареєструватися">
+        </form>
     </main>
 
     <footer style="text-align: center;">
