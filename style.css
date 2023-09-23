@@ -1,4 +1,3 @@
-
 .navbar{
     text-align: center; 
     padding: 10px;
@@ -16,12 +15,11 @@
     text-decoration: none;
 }
 
-
 p {
-    color:whitesmoke;
+    color:gainsboro;
 }
 h1 {
-    color: #fff;
+    color: gainsboro;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,12 +32,12 @@ body{
 }
 
 main{
-    padding-top: 5px;
+    padding-top: 35px;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 5px;
     background-color: #444654;
-    min-height: 70vh;
+    min-height: 66vh;
     display: flex;
     flex-direction: column;
 }
@@ -58,12 +56,10 @@ footer p{
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: whitesmoke;
 }
 
-
 header {
-    color: #fff;
+    color: gainsboro;
     text-align: center;
     padding: 5px;
     background-color: #444654;
@@ -113,6 +109,7 @@ ul#labs{
     transform: translate(-50%, -50%);
     text-decoration: none;
 }
+
 .backgroundlabbox{
     width:450px;
 	height:200px;
@@ -126,7 +123,7 @@ ul#labs{
 .backgroundprakbox{
     width:450px;
 	height:200px;
-    background-color: 	#DEB887;
+    background-color: #F4A460;
     border-radius: 25px;
     margin: 10px;
     position: relative;
